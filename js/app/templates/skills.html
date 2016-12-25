@@ -1,0 +1,22 @@
+<div id="skills" class="projects-wrapper padding-tb">
+    <h2 class="row text-center">Skills</h2>
+    <br>
+    <div class="skills-wrapper row">
+        <ul class="no-bullet skill-column medium-10 columns">
+            <li class="row skill-row" ng-repeat="skill in vm.skills">
+                <div class="float-left skill-name" ng-bind-html="vm.trustHtml(skill.name)"></div>
+                <div class="float-right">
+                    <star-component stars-count="skill.points"></star-component>
+                </div>
+            </li>
+        </ul>
+        <ul class="no-bullet skill-column medium-offset-2 medium-10 columns end">
+            <li class="row skill-row" ng-repeat="skill in vm.skills2">
+                <div class="float-left skill-name" ng-bind-html="vm.trustHtml(skill.name)"></div>
+                <div class="float-right">
+                    <star-component stars-count="skill.points"></star-component>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

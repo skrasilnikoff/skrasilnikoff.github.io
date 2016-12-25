@@ -1,0 +1,15 @@
+<div id="projects" class="skills-wrapper padding-tb row">
+    <h2 class="text-center">Projects</h2>
+    <br>
+    <div class="margin-bottom small-33 columns margin-b" ng-repeat="project in vm.projects">
+        <h5><a href="//{{project.url}}" title="{{project.name}}" target="_blank">{{project.name}}</a></h5>
+        <p>{{project.description}}</p>
+        <div>
+            <h6>Cases:</h6>
+            <ul>
+                <li class="margin-l" ng-repeat="case in project.cases"
+                    ng-bind-html="vm.trustHtml(case)"></li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -601,11 +601,11 @@ h6 {
 
 a {
   line-height: inherit;
-  color: #2ba6cb;
+  color: #ffbf00;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #258faf; }
+    color: #d8a202; }
   a img {
     border: 0; }
 
@@ -1154,7 +1154,7 @@ select {
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  background-color: #2ba6cb;
+  background-color: #ffbf00;
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
@@ -1173,7 +1173,7 @@ select {
     margin-right: 0;
     margin-left: 0; }
   .button.primary {
-    background-color: #2ba6cb;
+    background-color: #ffbf00;
     color: #0a0a0a; }
     .button.primary:hover, .button.primary:focus {
       background-color: #2285a2;
@@ -1215,16 +1215,16 @@ select {
       background-color: #1b1b1b;
       color: #fefefe; }
   .button.hollow {
-    border: 1px solid #2ba6cb;
-    color: #2ba6cb; }
+    border: 1px solid #ffbf00;
+    color: #ffbf00; }
     .button.hollow, .button.hollow:hover, .button.hollow:focus {
       background-color: transparent; }
     .button.hollow:hover, .button.hollow:focus {
       border-color: #165366;
       color: #165366; }
     .button.hollow.primary {
-      border: 1px solid #2ba6cb;
-      color: #2ba6cb; }
+      border: 1px solid #ffbf00;
+      color: #ffbf00; }
       .button.hollow.primary:hover, .button.hollow.primary:focus {
         border-color: #165366;
         color: #165366; }
@@ -1268,13 +1268,13 @@ select {
     opacity: 0.25;
     cursor: not-allowed; }
     .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #2ba6cb;
+      background-color: #ffbf00;
       color: #fefefe; }
     .button.disabled.primary, .button[disabled].primary {
       opacity: 0.25;
       cursor: not-allowed; }
       .button.disabled.primary:hover, .button.disabled.primary:focus, .button[disabled].primary:hover, .button[disabled].primary:focus {
-        background-color: #2ba6cb;
+        background-color: #ffbf00;
         color: #fefefe; }
     .button.disabled.secondary, .button[disabled].secondary {
       opacity: 0.25;
@@ -1406,7 +1406,7 @@ select {
       .button-group.expanded .button:first-child:nth-last-child(6):last-child, .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button:last-child {
         margin-right: -6px; }
   .button-group.primary .button {
-    background-color: #2ba6cb;
+    background-color: #ffbf00;
     color: #0a0a0a; }
     .button-group.primary .button:hover, .button-group.primary .button:focus {
       background-color: #2285a2;
@@ -1504,7 +1504,7 @@ select {
   width: 1.4rem;
   height: 1.4rem;
   border-radius: 3px;
-  background-color: #2ba6cb;
+  background-color: #ffbf00;
   transition: all 0.2s ease-in-out;
   -ms-touch-action: manipulation;
       touch-action: manipulation; }
@@ -1584,7 +1584,7 @@ select {
     transition: all 0.25s ease-out;
     content: ''; }
   input:checked ~ .switch-paddle {
-    background: #2ba6cb; }
+    background: #ffbf00; }
     input:checked ~ .switch-paddle::after {
       left: 2.25rem; }
   [data-whatinput='mouse'] input:focus ~ .switch-paddle {
@@ -1736,7 +1736,7 @@ select {
   .menu.nested {
     margin-left: 1rem; }
   .menu .active > a {
-    background: #2ba6cb;
+    background: #ffbf00;
     color: #fefefe; }
   .menu.menu-bordered li {
     border: 1px solid #e6e6e6; }
@@ -1799,7 +1799,7 @@ select {
     content: '';
     border-right-width: 0;
     border-left-style: solid;
-    border-color: transparent transparent transparent #2ba6cb;
+    border-color: transparent transparent transparent #ffbf00;
     position: absolute;
     top: 50%;
     margin-top: -6px;
@@ -1813,7 +1813,7 @@ select {
   content: '';
   border-left-width: 0;
   border-right-style: solid;
-  border-color: transparent #2ba6cb transparent transparent;
+  border-color: transparent #ffbf00 transparent transparent;
   border-left-width: 0;
   display: inline-block;
   vertical-align: middle;
@@ -1830,7 +1830,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #2ba6cb transparent transparent;
+    border-color: #ffbf00 transparent transparent;
     position: absolute;
     top: 50%;
     margin-top: -3px;
@@ -1864,7 +1864,7 @@ select {
   content: '';
   border-bottom-width: 0;
   border-top-style: solid;
-  border-color: #2ba6cb transparent transparent;
+  border-color: #ffbf00 transparent transparent;
   right: 5px;
   margin-top: -3px; }
 
@@ -1896,7 +1896,7 @@ select {
   content: '';
   border-left-width: 0;
   border-right-style: solid;
-  border-color: transparent #2ba6cb transparent transparent; }
+  border-color: transparent #ffbf00 transparent transparent; }
 
 .dropdown.menu.vertical > li.opens-right > a::after {
   display: block;
@@ -1906,7 +1906,7 @@ select {
   content: '';
   border-right-width: 0;
   border-left-style: solid;
-  border-color: transparent transparent transparent #2ba6cb; }
+  border-color: transparent transparent transparent #ffbf00; }
 
 @media print, screen and (min-width: 40em) {
   .dropdown.menu.medium-horizontal > li.opens-left > .is-dropdown-submenu {
@@ -1928,7 +1928,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #2ba6cb transparent transparent;
+    border-color: #ffbf00 transparent transparent;
     right: 5px;
     margin-top: -3px; }
   .dropdown.menu.medium-vertical > li .is-dropdown-submenu {
@@ -1949,7 +1949,7 @@ select {
     content: '';
     border-left-width: 0;
     border-right-style: solid;
-    border-color: transparent #2ba6cb transparent transparent; }
+    border-color: transparent #ffbf00 transparent transparent; }
   .dropdown.menu.medium-vertical > li.opens-right > a::after {
     display: block;
     width: 0;
@@ -1958,7 +1958,7 @@ select {
     content: '';
     border-right-width: 0;
     border-left-style: solid;
-    border-color: transparent transparent transparent #2ba6cb; } }
+    border-color: transparent transparent transparent #ffbf00; } }
 
 @media print, screen and (min-width: 64em) {
   .dropdown.menu.large-horizontal > li.opens-left > .is-dropdown-submenu {
@@ -1980,7 +1980,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #2ba6cb transparent transparent;
+    border-color: #ffbf00 transparent transparent;
     right: 5px;
     margin-top: -3px; }
   .dropdown.menu.large-vertical > li .is-dropdown-submenu {
@@ -2001,7 +2001,7 @@ select {
     content: '';
     border-left-width: 0;
     border-right-style: solid;
-    border-color: transparent #2ba6cb transparent transparent; }
+    border-color: transparent #ffbf00 transparent transparent; }
   .dropdown.menu.large-vertical > li.opens-right > a::after {
     display: block;
     width: 0;
@@ -2010,7 +2010,7 @@ select {
     content: '';
     border-right-width: 0;
     border-left-style: solid;
-    border-color: transparent transparent transparent #2ba6cb; } }
+    border-color: transparent transparent transparent #ffbf00; } }
 
 .dropdown.menu.align-right .is-dropdown-submenu.first-sub {
   top: 100%;
@@ -2058,7 +2058,7 @@ select {
     content: '';
     border-left-width: 0;
     border-right-style: solid;
-    border-color: transparent #2ba6cb transparent transparent; }
+    border-color: transparent #ffbf00 transparent transparent; }
   .is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after {
     display: block;
     width: 0;
@@ -2067,7 +2067,7 @@ select {
     content: '';
     border-right-width: 0;
     border-left-style: solid;
-    border-color: transparent transparent transparent #2ba6cb; }
+    border-color: transparent transparent transparent #ffbf00; }
   .is-dropdown-submenu .is-dropdown-submenu {
     margin-top: -1px; }
   .is-dropdown-submenu > li {
@@ -2169,7 +2169,7 @@ select {
       content: "/";
       color: #cacaca; }
   .breadcrumbs a {
-    color: #2ba6cb; }
+    color: #ffbf00; }
     .breadcrumbs a:hover {
       text-decoration: underline; }
   .breadcrumbs .disabled {
@@ -2205,7 +2205,7 @@ select {
       background: #e6e6e6; }
   .pagination .current {
     padding: 0.1875rem 0.625rem;
-    background: #2ba6cb;
+    background: #ffbf00;
     color: #fefefe;
     cursor: default; }
   .pagination .disabled {
@@ -2250,7 +2250,7 @@ select {
   border-bottom: 0;
   font-size: 0.75rem;
   line-height: 1;
-  color: #2ba6cb; }
+  color: #ffbf00; }
   :last-child:not(.is-active) > .accordion-title {
     border-bottom: 1px solid #e6e6e6;
     border-radius: 0 0 3px 3px; }
@@ -2531,7 +2531,7 @@ select {
     background: transparent; }
 
 .tabs.primary {
-  background: #2ba6cb; }
+  background: #ffbf00; }
   .tabs.primary > li > a {
     color: #0a0a0a; }
     .tabs.primary > li > a:hover, .tabs.primary > li > a:focus {
@@ -2544,13 +2544,13 @@ select {
     padding: 1.25rem 1.5rem;
     font-size: 0.75rem;
     line-height: 1;
-    color: #2ba6cb; }
+    color: #ffbf00; }
     .tabs-title > a:hover {
       background: #fefefe;
-      color: #258faf; }
+      color: #d8a202; }
     .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
       background: #e6e6e6;
-      color: #2ba6cb; }
+      color: #ffbf00; }
 
 .tabs-content {
   border: 1px solid #e6e6e6;
@@ -2840,10 +2840,10 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   border-radius: 50%;
   font-size: 0.6rem;
   text-align: center;
-  background: #2ba6cb;
+  background: #ffbf00;
   color: #fefefe; }
   .badge.primary {
-    background: #2ba6cb;
+    background: #ffbf00;
     color: #0a0a0a; }
   .badge.secondary {
     background: #e9e9e9;
@@ -2872,10 +2872,10 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   line-height: 1;
   white-space: nowrap;
   cursor: default;
-  background: #2ba6cb;
+  background: #ffbf00;
   color: #fefefe; }
   .label.primary {
-    background: #2ba6cb;
+    background: #ffbf00;
     color: #0a0a0a; }
   .label.secondary {
     background: #e9e9e9;
@@ -2902,7 +2902,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   border-radius: 3px;
   background-color: #cacaca; }
   .progress.primary .progress-meter {
-    background-color: #2ba6cb; }
+    background-color: #ffbf00; }
   .progress.secondary .progress-meter {
     background-color: #e9e9e9; }
   .progress.alert .progress-meter {
@@ -2921,7 +2921,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   display: block;
   width: 0%;
   height: 100%;
-  background-color: #2ba6cb;
+  background-color: #ffbf00;
   border-radius: 3px; }
 
 .progress-meter-text {

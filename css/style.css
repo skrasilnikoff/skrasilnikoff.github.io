@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: DINProLight;
   src: url("../fonts/dinpro-light.otf") format("opentype");
 }
@@ -6,7 +6,7 @@
 @font-face {
   font-family: DINProRegular;
   src: url("../fonts/dinpro-regular.otf") format("opentype");
-}
+} */
 
 h1,
 h2,
@@ -14,15 +14,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "DINProRegular", Helvetica, Arial, sans-serif;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #373737;
   letter-spacing: 0.08rem;
   margin-top: 0;
 }
 
-.margin-ttransform-origin:left top;
-  {
+a, p, span, div {
+  font-family: Roboto;
+}
+
+.margin-t {
   margin-top: 13px;
 }
 
@@ -64,13 +67,11 @@ h6 {
 
 /* --------------------------------------- */
 
-.wellcome-wrapper h1 {
-  margin: 72px auto 20px;
-}
+
 
 .skills-wrapper .fi-star {
   padding: 0 2px;
-  color: #42a6cb
+  color: #ffbf00
 }
 
 .skills-wrapper .fi-star.light {
@@ -91,11 +92,79 @@ h6 {
 }
 
 .menu-wrapper {
-  width: 245px;
+  width: 310px;
   margin: 0 auto;
+}
+
+.menu > li > a {
+  font-family: "Roboto";
+  text-transform: uppercase;
 }
 
 footer {
   padding-top: 70px;
   padding-bottom: 70px
+}
+
+header {
+  background-image: url(/img/bklyn-section-2.jpg);
+  background-size: cover;
+}
+
+.wellcome-wrapper h1 {
+  margin: 0 auto 20px;
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  width: 500px;
+}
+
+.wellcome-wrapper h5 {
+  color: #fff
+}
+
+.header-container {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background-image: url(/img/overlay-pattern3.png);
+  background-color: rgba(44,62,80 , 0.2 ) !important;
+  background-repeat: repeat;
+  box-sizing: border-box;
+}
+
+section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+section .h-header {
+  margin-bottom: 20px;
+}
+
+section .h-header .text {
+  display: inline-block;
+  border: 6px solid;
+  padding: 0.1em 0.2em;
+  text-transform: uppercase;
+}
+
+#projects .project-item h5 a {
+  text-transform: uppercase;
+}
+
+#projects .project-item {
+  margin-bottom: 40px;
+}
+
+#contacts a {
+  color: #0a0a0a;
+}
+
+@media screen and (max-width: 500px) {
+  .wellcome-wrapper h1 {
+    font-size: 50px;
+    width: auto;
+  }
 }

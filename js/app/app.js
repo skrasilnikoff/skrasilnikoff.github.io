@@ -231,7 +231,7 @@ function MainPageController($sce) {
                 'breadcrumbs with category list (<a href="//www.watchbuy.ru/Edwin/AutomatED/z1002-03.html">example</a>)',
                 'updating the goods links by the cron',
                 'fix cart processing',
-                'script for backuping'
+                'backup script'
             ]
         },
         {
@@ -246,7 +246,10 @@ function MainPageController($sce) {
                 'other plugins for admin section',
                 'posting products to Facebook via cron',
                 'setting meta tags for social networks (facebook.com, vk.ru)',
-                'script for backuping',
+                'plugin for exporting products to hotline.ua',
+                'plugin for exporting products to Yndex.Market',
+                'plugin for exporting products to Prom.ua',
+                'backup script',
                 '<a href="//prom.ua">Prom.ua</a> service integration. <br>' +
                     'Plugin for synchronization and order management on prom.ua. <br>' +
                     'Export products to xml for prom.ua',
@@ -268,9 +271,9 @@ function MainPageController($sce) {
             cases: [
                 'Html makeup and fixes',
                 'refactoring and rewrite products list for adaptive design',
-                'write a plugin for creating sitemap tree page (<a href="//child-bike.com.ua/sitemap_tree/">example</a>)',
-                'write a plugin for filter products on category page (<a href="//child-bike.com.ua/katalog/velosipedi/params/kolichestvo-koles-dvuhkolesnyy/">example</a>)',
-                'write a plugin which create a custom sitemap with specific urls. This url are used in category filters (<a href="//child-bike.com.ua/sitemap-params.xml">example</a>)',
+                'build a plugin for creating sitemap tree page (<a href="//child-bike.com.ua/sitemap_tree/">example</a>)',
+                'build a plugin for filter products on category page (<a href="//child-bike.com.ua/katalog/velosipedi/params/kolichestvo-koles-dvuhkolesnyy/">example</a>)',
+                'build a plugin which create a custom sitemap with specific urls. This url are used in category filters (<a href="//child-bike.com.ua/sitemap-params.xml">example</a>)',
                 'localization (ru , ua)',
                 'move to a new hosting'
             ]
@@ -323,7 +326,7 @@ function MainPageController($sce) {
             url: 'boxru.ru',
             cases: [
                 'Html makeup and fixes',
-                'script for backuping',
+                'backup script',
                 'extend export functionality to Yandex.Market',
                 'fix cart processing'
             ]

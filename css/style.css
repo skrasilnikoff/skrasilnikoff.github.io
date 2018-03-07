@@ -160,6 +160,7 @@ section .h-header .text {
 
 #contacts a {
   color: #0a0a0a;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 500px) {

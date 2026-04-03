@@ -1,52 +1,195 @@
 <!DOCTYPE html>
-<html ng-app="cvSite" ng-controller="AppController as vm">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width" />
-
-  <title>Serhii Krasylnykov | site resume</title>
-
-  <link rel="stylesheet" href="./fonts/font-oswald.css">
-  <link rel="stylesheet" href="./fonts/font-opensans.css">
-  <link rel="stylesheet" href="./fonts/font-roboto.css">
-
-  <link rel="stylesheet" href="./css/foundation.css">
-  <link rel="stylesheet" href="./css/foundation-icons/foundation-icons.css">
-  <link rel="stylesheet" href="./css/style.css?v2">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serhii Krasylnykov — Senior WordPress Developer</title>
+  <meta name="description" content="Senior WordPress Developer with 12+ years of experience building custom plugins, themes, and WooCommerce solutions for international clients.">
+  <meta property="og:title" content="Serhii Krasylnykov — Senior WordPress Developer">
+  <meta property="og:description" content="Senior WordPress Developer with 12+ years of experience building custom plugins, themes, and WooCommerce solutions for international clients.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://skrasilnikoff.github.io/">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
-  <header>
-    <div class="header-container">
-      <div class="wellcome-wrapper">
-        <h1 class="text-center">Sergey Krasilnikov</h1>
-        <h5 class="text-center">Web Developer</h5>
-        <br>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Serhii Krasylnykov</h1>
+      <p class="hero-title">WordPress &amp; Full-Stack Developer</p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-value">12+</span>
+          <span class="stat-label">years</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <span class="stat-value">50+</span>
+          <span class="stat-label">projects</span>
+        </div>
       </div>
-      <div class="menu-wrapper" ng-include="vm.templatesUrl + 'menu.html'"></div>
+      <div class="hero-links">
+        <a href="mailto:skrasilnikov.dev@gmail.com">Email</a>
+        <a href="https://github.com/skrasilnikoff" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/sergey-krasilnikov-26745b9a/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
     </div>
-  </header>
+  </section>
 
-  <div id="main-content" ng-view></div>
+  <!-- Summary -->
+  <section class="summary">
+    <div class="container">
+      <p>Senior WordPress Developer with <strong>12+ years of experience</strong> building custom plugins, themes, and WooCommerce solutions for international clients. Led a team of developers, conducted code reviews, and integrated 10+ third-party services — payments, AI, cloud, and Web3 APIs.</p>
+    </div>
+  </section>
 
+  <!-- Skills -->
+  <section class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>WordPress</h3>
+          <ul>
+            <li>Custom Plugin &amp; Theme Dev</li>
+            <li>WooCommerce</li>
+            <li>Gutenberg / Block Editor</li>
+            <li>ACF, WordPress REST API</li>
+            <li>Multisite, WP-CLI</li>
+            <li>Security &amp; Performance</li>
+            <li>WPML, Polylang</li>
+            <li>Elementor, WPBakery</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <ul>
+            <li>PHP 8.x (OOP, PSR, SOLID)</li>
+            <li>MySQL</li>
+            <li>RESTful API</li>
+            <li>Redis, Memcached</li>
+            <li>PHPUnit, Composer</li>
+            <li>Laravel</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <ul>
+            <li>JavaScript (ES6+)</li>
+            <li>ReactJS</li>
+            <li>jQuery</li>
+            <li>HTML5 / CSS3, SASS/LESS</li>
+            <li>Bootstrap, Webpack</li>
+            <li>Fetch API / Axios</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>DevOps &amp; Tools</h3>
+          <ul>
+            <li>Git (GitHub, GitLab, Bitbucket)</li>
+            <li>Linux, Nginx, Apache</li>
+            <li>Docker</li>
+            <li>AWS S3, Google Cloud</li>
+            <li>GitHub Actions</li>
+            <li>Bitbucket Pipelines</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Integrations</h3>
+          <ul>
+            <li>Stripe, MoonPay, Coinbase</li>
+            <li>OpenAI, Gemini, Grok</li>
+            <li>Google APIs</li>
+            <li>MetaMask, Web3</li>
+            <li>Facebook API, Zapier</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>AI Tools</h3>
+          <ul>
+            <li>Claude Code</li>
+            <li>GitHub Copilot</li>
+            <li>Cursor</li>
+            <li>OpenAI Codex</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="jobs">
+
+        <article class="job">
+          <div class="job-header">
+            <div>
+              <h3>Senior WordPress Developer / Team Lead</h3>
+              <span class="company">CreativeMinds</span>
+            </div>
+            <span class="period">2020 — present</span>
+          </div>
+          <ul class="job-list">
+            <li>Developed and maintained commercial WordPress plugins sold on international markets</li>
+            <li>Led a team of up to 4 developers — code reviews, mentoring, knowledge sharing</li>
+            <li>Built custom solutions using WooCommerce, ACF, Gutenberg, REST API, OOP PHP</li>
+            <li>Integrated 10+ third-party APIs: Stripe, MoonPay, Coinbase, OpenAI, Gemini, AWS, Google Cloud, MetaMask, Zapier, Facebook</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-header">
+            <div>
+              <h3>Independent Web Developer</h3>
+              <span class="company">Freelance</span>
+            </div>
+            <span class="period">2014 — present</span>
+          </div>
+          <ul class="job-list">
+            <li>Built 50+ e-commerce and corporate sites on WordPress and other CMS platforms</li>
+            <li>Integrated payment gateways, marketplace feeds, and social APIs</li>
+            <li>WordPress performance optimization, security hardening, and ongoing maintenance</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-header">
+            <div>
+              <h3>Web Developer</h3>
+              <span class="company">Sound Strategies</span>
+            </div>
+            <span class="period">2013 — 2014</span>
+          </div>
+          <ul class="job-list">
+            <li>Front-end and back-end development for agency client projects</li>
+            <li>Delivered HTML/CSS markup, PHP backend logic, and CMS customizations</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <div class="menu-wrapper" ng-include="vm.templatesUrl + 'menu.html'"></div>
-    <br>
-    <p class="text-center">2012 - {{vm.currentYear}}</p>
+    <div class="container">
+      <div class="footer-links">
+        <a href="mailto:skrasilnikov.dev@gmail.com">skrasilnikov.dev@gmail.com</a>
+        <a href="https://github.com/skrasilnikoff" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/sergey-krasilnikov-26745b9a/" target="_blank" rel="noopener">LinkedIn</a>
+        <span class="location">Ukraine</span>
+      </div>
+      <p class="copyright">&copy; 2012–2026 Serhii Krasylnykov</p>
+    </div>
   </footer>
 
-  <script src="./js/lib/jquery.min.js"></script>
-  <script src="./js/lib/what-input.min.js"></script>
-  <script src="./js/lib/foundation.min.js"></script>
-  <script src="./js/lib/angular.min.js"></script>
-  <script src="./js/lib/angular-route.min.js"></script>
-  <script src="./js/lib/angular-resource.min.js"></script>
-  <script src="./js/app/app.js?v3"></script>
-  <script>
-    jQuery(document).foundation()
-  </script>
+  <script src="./js/main.js"></script>
 </body>
-
 </html>
